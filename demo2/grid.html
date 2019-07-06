@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Bootstrap Grid</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h1>This is first column</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sapiente possimus temporibus, eum sed facilis, corrupti architecto eaque vero saepe repellat nam culpa. Odit nisi cupiditate itaque expedita aliquid similique?</p>   
+        </div>
+            <div class="col-sm-4">Second Column</div>
+            <div class="col-sm-4">Third Column</div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <h1>Second Row. First Column</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim et sapiente beatae, in reprehenderit doloribus facilis quos itaque ut adipisci aliquam rem nulla assumenda, ducimus, pariatur magnam explicabo? Sint, animi!</p>
+            </div>
+            <div class="col-sm-4">
+                <h1>Second Row. Second Column</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim et sapiente beatae, in reprehenderit doloribus facilis quos itaque ut adipisci aliquam rem nulla assumenda, ducimus, pariatur magnam explicabo? Sint, animi!</p>
+            </div>
+            <div class="col-sm-4">
+                <h1>Third Row. Third Column</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim et sapiente beatae, in reprehenderit doloribus facilis quos itaque ut adipisci aliquam rem nulla assumenda, ducimus, pariatur magnam explicabo? Sint, animi!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 offset-sm-4">
+                <h1>This is span 4</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim et sapiente beatae, in reprehenderit doloribus facilis quos itaque ut adipisci aliquam rem nulla assumenda, ducimus, pariatur magnam explicabo? Sint, animi!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <h1>Third Row. First Column</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim et sapiente beatae, in reprehenderit doloribus facilis quos itaque ut adipisci aliquam rem nulla assumenda, ducimus, pariatur magnam explicabo? Sint, animi!</p>
+            </div>
+            <div class="col-sm-4">
+                    <h1>Third Row. Second Column</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim et sapiente beatae, in reprehenderit doloribus facilis quos itaque ut adipisci aliquam rem nulla assumenda, ducimus, pariatur magnam explicabo? Sint, animi!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 offset-sm-6">
+                <h1>This is span 3</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim et sapiente beatae, in reprehenderit doloribus facilis quos itaque ut adipisci aliquam rem nulla assumenda, ducimus, pariatur magnam explicabo? Sint, animi!</p>
+            </div>
+            <div class="col-sm-3">
+                <h1>This is last column</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim et sapiente beatae, in reprehenderit doloribus facilis quos itaque ut adipisci aliquam rem nulla assumenda, ducimus, pariatur magnam explicabo? Sint, animi!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>This is span 12</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim et sapiente beatae, in reprehenderit doloribus facilis quos itaque ut adipisci aliquam rem nulla assumenda, ducimus, pariatur magnam explicabo? Sint, animi!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="tooltip">
+    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+            Tooltip on top
+          </button>
+          <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+            Tooltip on right
+          </button>
+          <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+            Tooltip on bottom
+          </button>
+          <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+            Tooltip on left
+    </button>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
+</body>
+</html>

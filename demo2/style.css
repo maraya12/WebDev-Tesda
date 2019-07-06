@@ -1,0 +1,31 @@
+.jumbotron{
+    background-color:wheat;
+    border-radius:0px;
+}
+.col-sm-4:nth-child(even){
+    background-color: blanchedalmond;
+}
+.col-sm-4:nth-child(odd){
+    background-color: pink;
+}
+.row{
+    margin:auto;
+}
+.col-sm-4, .col-sm-8, .col-sm-3{
+    margin-bottom:5px;
+}
+.col-sm-3:last-child{
+    background-color:pink;
+}
+.col-sm-3:first-child{
+    background-color:blanchedalmond;
+}
+.col-sm-8{
+    background-color:pink;
+}
+.col-sm-12{
+    background-color:pink;
+}
+.tooltip{
+    background-color:gray;
+}

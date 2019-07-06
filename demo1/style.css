@@ -1,0 +1,16 @@
+.jumbotron{
+    background-color:#8FBC8F;
+}
+.btn{
+    border-radius:0px;
+    margin-bottom:20px;
+}
+.dropdown{
+    margin-left:125px;
+}
+.col-sm-4:nth-child(even){
+    background-color: #8FBC8F;
+}
+.col-sm-4:nth-child(odd){
+    background-color: burlywood;
+}
